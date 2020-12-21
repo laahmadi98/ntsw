@@ -1,0 +1,63 @@
+.details-page{
+    border: 1px solid #eee;
+    width: 80%;
+    margin: 0 auto;
+    padding:1rem;   
+}
+.details-page-tab{
+    padding: 1rem !important;
+
+}
+.details-page-title{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details-page-title-color{
+    color: #22A026;
+}
+.title-details{
+    background-color: #062d66;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+    padding:0.5rem;
+    border-radius: 5px;
+    width: auto;
+}
+.idea-submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor:pointer;
+    transition: transform 0.4s;
+ 
+}
+.react-tabs{
+    margin-bottom: 1rem;
+}
+.idea-submit-btn:hover{
+    color:#fff !important;
+    transition: background-color 0.7s ease-out;
+    background-color:#315492 !important;
+    /* transition: box-shadow .45s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.idea-submit-btn span:hover {
+    color: #fff;
+}
+.details-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+@media only screen and (max-width : 750px){
+    .details-page-title{
+        flex-direction:column;
+
+    }
+}

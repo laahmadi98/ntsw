@@ -1,0 +1,37 @@
+body{
+    direction:rtl;
+    text-align: right;
+}
+.input-box{
+    /* border: 1px solid #eee; */
+    margin: 0 auto;
+    padding: 1rem;
+}
+.input-body{
+    display: flex;
+    flex-direction: column;
+}
+.input-title{
+    font-weight: bold ;
+    color: #315492;
+    
+}
+.input-required-sign{
+    color: red;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+.input-body input{
+    border-radius: 5px;
+    border:1px solid  #062d66;
+    padding: 0.4rem;
+}
+.input-body input::placeholder{
+    color: #315492;
+
+}
+
+.input-hint-text{
+    font-size: 0.7rem;
+    color: red;
+}
